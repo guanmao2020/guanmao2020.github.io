@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+ </head>
+ <body>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>个人网页</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+    
+    h1 {
+      color: #333;
+    }
+    
+    p {
+      color: #666;
+    }
+    
+    .profile-image {
+      max-width: 200px;
+      border-radius: 50%;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>公司简介</h1>
+  </header>
+  
+  <section>
+    <a href="edu.txt"><h2>教育</h2></a>
+    <ul>
+	  <a href="https://www.qcc.com/firm/a4b5c7acec7fd7c90f0a23991e3dfa6d.html"<li>紫光教育科技有限公司</li></a>
+	</ul>
+	<p>紫光教育机构（www.unisedu.com）成立于2005年4月，公司定位于  “教育+网络”、“面授+网络”的教育模式，致力于“平台式”教育企业的构建，开展网络教育与传统面授教育互动的、差异化竞争的教育培训。公司发展至今，为社会提供着从基础教育到职业教育，从学历教育到非学历教育，从面授教育到网络教育的多方位教育服务，帮助更多人实现自主学习、终身学习的梦想。</p>
+    <p>紫光教育机构拥有四家高科技公司――北京紫光在线教育科技有限公司 、北京普育成长教育科技有限公司、北京全人时代、清大紫育教育科技有限公司；一家培训资质企业――北京市紫光教育培训中心；五家网站――紫光教育培训中心网(www.unisedu.net)、中国名校自主招生网(www.mxzzzs.com)、3A名校升学服务网(www.3adaxue.com)、中国名校升学指导与规划（www.unisedu.cn）、人人高考网（www.renrengaokao.com）。</p>
+
+  </section>
+  
+  <section>
+    <a href="intellect.txt"><h2>智能</h2></a>
+    <ul>
+      <a href="https://www.qcc.com/firm/0b2bc86860e2882a8e5cf504d092c183.html"><li>江苏优埃唯智能科技有限公司</li></a>
+    </ul>
+	<p>江苏优埃唯智能科技有限公司于2015年03月09日在常州市武进区市场监督管理局登记成立。法定代表人郑欣，公司经营范围包括计算机软件研发，计算机、3D打印机、智能电子产品等。</p>
+    <p>公司类型:有限责任公司</p>
+    <p>登记机关:常州市武进区市场监督管理局</p>
+	<p>成立时间:2015年03月09日</p>
+	<p>发照时间:2016年05月05日</p>
+  </section>
+
+  <section>
+     <a href="soft.txt"><h2>软件</h2></a>
+     <ul>
+      <a href="https://www.qcc.com/firm/1380cb849b0447e91e7ff5b80b4cc02e.html"><li>北京东方仿真软件技术有限公司</li></a>
+    </ul>
+	<p>北京东方仿真公司成立于1992年，是一家专门致力于研发仿真教学软件的公司，是北京市属高新技术企业，专门从事利用计算机为过程行业开发专用的仿真培训系统。公司的技术产品及实施项目多次在中国石化公司、北京市、天津市等部委和直辖市获得科技进步奖。在中国大陆的石化行业仿真培训系统的市场占有率超过80%。从2000年起，东方仿真一直是中石化和中石油两大集团公司操作工技能大比武，技能竞赛唯一的化工仿真培训类软件提供商。经过多年的发展已逐渐成为一家技术先进、服务到位、专业力量雄厚的专业技术型公司。</p>
+	<p>公司名称:北京东方仿真软件技术有限公司</p>
+	<p>经营范围:研发仿真教学软件</p>
+	<p>成立时间:1992年</p>
+	<p>公司性质:高新技术企业</p>
+  </section>
+    
+  <section>
+  <a href="echnology.txt"><h2>科技</h2></a>
+     <ul>
+      <a href="https://www.qcc.com/firm/493dfdd72d7cca6a19872aaa63f03bc8.html"><li>大连欣恒科技有限公司</li></a>
+    </ul>
+    <p>大连欣恒科技有限公司创建于2020年7月23日，坐落于辽宁省大连市沙河口区天宝街23号20层4号，法人代表为张婷，经营范围包括：许可项目：互联网信息服务（依法须经批准的项目，经相关部门批准后方可开展经营活动，具体经营项目以审批结果为准） 一般项目：网络技术服务，技术服务、技术开发、技术咨询、技术交流、技术转让、技术推广，软件开发，信息技术咨询服务（除依法须经批准的项目外，凭营业执照依法自主开展经营活动）</p>
+  </section>
+
+  </br>
+  <footer>
+    <p>第三周作业</p>
+  </footer>
+ </body>
+</html>

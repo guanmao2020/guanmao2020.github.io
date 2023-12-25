@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+ </head>
+ <body> 
+ <style>
+    body {
+     font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #978;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 32px;
+    }
+
+    nav {
+      background-color: #f2f2f2;
+      padding: 10px;
+    }
+    p{
+      font-size: 18px;
+	}
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul li {
+      display: inline;
+      margin-right: 10px;
+    }
+
+    section {
+      padding: 20px;
+    }
+    
+    footer {
+      background-color: #978;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>欢迎来到我的作业！</h1>
+  </header>
+  
+  <nav>
+    <ul>
+      <li><a href="#">首页</a></li>
+      <li><a href="#">各种命令解读</a></li>
+      <li><a href="#">用grep获取到的以24个字母开头的单词最多和最少</a></li>
+    </ul>
+  </nav>
+  
+  <section>
+    <h2>各种命令解读</h2>
+    <p> 1、curl https://lijianhong19720904.github.io/WebAdv/kc00/cet6.txt > cet6.txt：</br>
+	从网址https://lijianhong19720904.github.io/WebAdv/kc00/cet6.txt处获取网页数据cet6.txt文件并将它保存到新建文本文档cet6.txt中</p>
+	<p>2、ipconfig.exe：</br>
+	ipconfig是调试计算机网络的常用命令，通常大家使用它显示计算机中网络适配器的IP地址、子网掩码及默认网关。
+	<p>3、ping </br>
+	ping是个使用频率极高的实用程序，主要用于确定网络的连通性pi,如果ping通一个地址，那么基本可以排除物理层数据链路层的故障等。
+    ping 的命令格式通常是ping + IP、 地址 ping +域名、 ping+ 主机名</br>
+	例如：ping mit.edu  此命令用于查看麻省理工学院网络的连通性</p>
+    <p>4、tarcert</br>
+	不带选项的Tracert命令将显示到达目标IP地址所经过的路径，并将IP地址解析为主机名一同显示。</br>
+	-d选项，不将地址解析成主机名，能够更快地显示路由器路径。</br>
+	-h选项，指定跟踪的跃点数。以下的命令只显示5跳，可以看到命令只跟踪到5跳就结束了。一般来说，5跳之内可能还是本地省内链路。</br>
+	-w选项，指定等待每个应答的时间（以毫秒为单位）。默认值为 3000 毫秒（3 秒）。
+	<p>5、cut</br> 
+	文本文件按列提取
+	例如：cut --delimiter='/' -f1 cet6.txt | grep 'ing$'</br>
+	在cet6.txt文本文件中，以“/”为分隔符分隔字段，查找以“ing”结尾的单词，取第一部分显示
+
+  </section>
+  
+  <section>
+    <h2>用grep获取到的以24个字母开头的单词最多和最少</h2>
+    <p>cet6.txt中以字母"s"开头的单词最多</br>
+   grep '^s' cet6.txt |wc</br>
+    646     647   34294</br></p>
+   <p>cet6.txt中以字母"x"开头的单词最少</br>
+   grep '^x' cet6.txt |wc</br>
+      1       1      31</br></p>
+  </section>
+ 
+  
+  <footer>
+    &copy; 2023 我的个人作业
+  </footer>
+ </body>
+</html>

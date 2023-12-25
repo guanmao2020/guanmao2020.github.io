@@ -1,0 +1,211 @@
+    git命令的基本使用
+        此节课我初识了git命令窗口及一些简单的命令使用，如ls,pwd,cd,mkdir,rm,cp,ipconfig,cat,ll,cd -,cd ~,cd ..,date,vim,help,touch
+	ls:查看当前文件夹下的内容
+	ls -al:包括隐藏文件夹和以.开头的文件
+	pwd:查看当前所在文件夹
+	cd:切换文件夹
+	mkdir:创建目录
+	rm:删除指定文件
+	cp:将给出的文件或目录复制到另一个文件或目录下
+	ipconfig:查看IP地址
+	cat：查看文件内容（一次性将内容全部显示）适合查看内容较少的文本文件
+	ll:查看当前目录下的内容(列出的内容更加详细）
+	cd-:上一次访问的目录
+	cd~:当前用户目录
+	cd ..:上一级目录
+	date:查看当前时间
+	vim:打开、修改、保存文件内容
+	i（按键）  进入编辑模式，ESC（按键）  退出，：wq  保存退出（shift+调起输入框），:q！ 不保存退出（shift+：调起输入框）（内容有更改）(强制退出，不保留更改内容)，:q	  不保存退出（shift+：调起输入框）（没有内容更改）。
+	help:显示命令的帮助信息
+	touch：创建文件
+	
+    1  ls
+    2  ls pw
+    3  cd
+    4  cd/c
+    5  ls
+    6  mkdir/e/26632
+    7  mkdir e/26632
+    8  mkdir e:/26632
+    9  mkdir e:/26632/
+   10  mkdir e:/guanmao
+   11  ls e:/guanmao
+   12  ls e:
+   13  ls e:/
+   14  cp e:/管茂.jpg e:/guanmao
+   15  ls e:/guanmao
+   16  back
+   17  cd e:/
+   18  ls
+   19  cp guanmao/* .
+   20  cd d:/
+   21  cp guanmao/* .
+   22  cp e:/guanmao/* .
+   23  ls
+   24  rm 管茂.jpg
+   25  ls
+   26  ls
+   27  cd e:/
+   28  ls
+   29  cd e-tree
+   30  cd e:/tree
+   31  tree-d
+   32  cd e:/
+   33  rm guanmao/* .
+   34  rm guanmao/*
+   35  rm guanmao
+   36  rm guanmao -r
+   37  ls
+   38  ls c:/
+   39  history 
+   40  ls
+   41  history > 20213587-09-06.txt
+   42  ls
+   43  ipconfig
+   44  history>20213587.txt
+   45  ls
+   46  ls -a 20213587.txt 
+   47  more 20213587.txt 
+   48  cat 20213587.txt 1
+   49  ls
+   50  cd c
+   51  e:
+   52  cd e:
+   53  LS
+   54  ll
+   55  mkdir guanmao
+   56  cd guanmao/
+   57  ls
+   58  ll
+   59  cd ..
+   60  ll
+   61  cp 选修信息论文/ guanmao/
+   62  cp -r 选修信息论文/ guanmao/
+   63  cd guanmao/
+   64  ls
+   65  ll
+   66  cp 选修信息论文 guanmao
+   67  cp c:/unins000.dat E:/guanmao
+   68  ls
+   69  pwd
+   70  cd ~
+   71  ls
+   72  pwd
+   73  ls
+   74  cd e
+   75  cd e:
+   76  LS
+   77  cd guanmao/
+   78  ls
+   79  cd ..
+   80  cd gq
+   81  cd guanmao/
+   82  mkdir 1.txt
+   83  mkdir -p z/v/b
+   84  ls
+   85  cd z/
+   86  ls
+   87  cd v
+   88  ls
+   89  cd b
+   90  ls
+   91  pwd
+   92  mkdir 1.txt
+   93  ls
+   94  pwd
+   95  ll
+   96  cd ../..
+   97  cd ~
+   98  ls
+   99  pwd
+  100  cd -
+  101  cd ../..
+  102  cd ../..ls
+  103  pwd
+  104  mkdir .w.txt
+  105  ls
+  106  rm -rf .w.txt/
+  107  mkdir .zhangsan
+  108  ls
+  109  ll
+  110  rm -rf .zhangsan/
+  111  cd guanmao/
+  112  ls
+  113  mkdir .zhangsan
+  114  ll
+  115  ll -a
+  116  data
+  117  date
+  118  ipconfig
+  119  ls
+  120  vim 1.txt
+  121  vim 1.txt
+  122  vim 1.txt
+  123  ll
+  124  chomd -R 1.txt/ 777
+  125  chmod -R 1.txt/ 777
+  126  CHMOD 777 1.txt/
+  127  ll
+  128  CHMOD 644 1.txt/
+  129  ll
+  130  ls
+  131  rm -rf z
+  132  ls
+  133  mkdir -p sda/aaa/aa/aa
+  134  rm sda/
+  135  rm -r sda/
+  136  ls
+  137  ls
+  138  vm 1.txt/
+  139  vim 1.txt/
+  140  history>20213587.txt
+  141  cat 20213587.txt 
+  142  vim 20213587.txt 
+  143  ls
+  144  cat 20213587.txt 
+  145  ls
+  146  cd ..
+  147  ls
+  148  cat jdk
+  149  cat 入党积极分子培训学习情况登记表.docx 
+  150  64;1;2;4;6;9;15;21;22;28;29c
+  151  cd guanmao/
+  152  ls
+  153  more 20213587.txt 
+  154  morn 20213587.txt 
+  155  ls
+  156  cd ~
+  157  ls
+  158  man
+  159  manual
+  160  man -k
+  161  type -l
+  162  type 
+  163  apropos
+  164  which
+  165  help[; ;; :
+  166  help
+  167  source
+  168  ls
+  169  ll
+  170  history 
+  171  ls
+  172  cd-
+  173  history 
+  174  pwd
+  175  cd~
+  176  cd/
+  177  find.-name'g*'
+  178  touch gmgx
+  179  ls
+  180  mkdir -p gmgx/gx
+  181  -help
+  182  help
+  183  man
+  184  -man
+  185  cd d
+  186  cd e
+  187  cd e:
+  188  ls
+  189  history 
+  190  history >20213587-0908.txt
